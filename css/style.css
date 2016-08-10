@@ -1,0 +1,256 @@
+/* Your CSS rules go here */
+
+
+nav{
+    position:fixed;
+    top:0; 
+    width:100%;
+    background-color:rgb(18,18,20);
+    z-index: 1;
+    margin-bottom:0;
+    color:white;
+    font-size:16px;
+    font-variant: small-caps; 
+    text-decoration: none;
+}
+nav svg {
+    size:1em;
+    color:white;
+}
+
+nav li a {
+    color:white;
+}
+nav li a:hover{
+    font-size:120%;
+    color:white;
+}
+header{
+    background-image: url('../img/pencil-header-xs.jpg');
+    background: -moz-linear-gradient(to right, white, rgba(0,0,0,0));
+    background-repeat: no-repeat;
+    background-position:center;
+}
+header h1 {
+    font-size:4em;
+}
+header  p {
+    font-weight:100; 
+    max-width:50%;
+}
+
+body{
+    background-color:#f1f2f5;
+    font-family:'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif';
+    font-size:18px;
+    font-weight:300;
+}
+q{
+    display:block;
+    font-size: 120%;
+    font-style:italic;
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Source Sans Pro', 'Helvetica Neue', 'Arial', 'sans-serif';
+    font-weight:300;
+}
+header, footer{
+    padding-top:3em;
+    padding-bottom:3em;
+}
+#testimonial{
+    padding-bottom:1em;
+}
+#features{
+    background-color:#e0deda;
+    padding-top:1em;
+    padding-bottom:1em;
+
+}
+
+#advertisement{
+    background-img:url('..img/colors-background-sm.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#advertisement h2{
+    font-size:3em;
+    margin: 1em 1em;
+    padding-top: 1em;
+    padding-bottom:1em;
+}
+#history{
+    padding-top:1em;
+    padding-bottom:1em;
+}
+#workshops{
+    background-color:#e0deda;
+    padding:1em 1em;
+    text-align:center;
+}
+#workshops img {
+    padding-top:1em;
+    padding-bottom:1em;
+    border-radius:8px;
+}
+#workshops button {
+    background-color:white;
+    border: 2px black;
+    font-weight:400;
+}
+#workshops h2 {
+    font-weight:100;
+    font-size:2em;
+  
+}
+@media screen and (min-width:768px){
+    header{
+        background-image: url('../img/pencil-header-sm.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background:-moz-linear-gradient(to right, white, rgba(0,0,0,0));  
+    }
+    header p {
+        font-size:1.5em;
+         max-width:50%;
+    }
+    #advertisement{
+        background-image: url('../img/colors-background-sm.jpg');
+            background-repeat: no-repeat;
+    background-position:center;
+    }
+    #workshops h2 {
+    font-weight:100;
+    font-size:2.5em;
+}
+#workshops{
+    text-align:left;
+}
+i{
+    float: right !important;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+}
+@media screen and (min-width:992px){
+    header{
+        background-image: url('../img/pencil-header-md.jpg');
+        background-repeat: no-repeat;
+        background-position:center ;
+        background:-moz-linear-gradient(to right, white, rgba(0,0,0,0));
+    }
+      header p {
+        font-size:1.5em;
+         max-width:50%;
+    }
+    #advertisement{
+ background-image: url('../img/colors-background-md.jpg');
+     background-repeat: no-repeat;
+    background-position:center;
+    }
+    #workshops h2 {
+    font-weight:100;
+    font-size:2.5em;
+}
+#workshops{
+    text-align:left;
+}
+i{
+    float: right !important;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+}
+@media screen and (min-width:1200px){
+    header{
+        background-image: url('../img/pencil-header-lg.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background: -moz-linear-gradient(to right, white, rgba(0,0,0,0));
+    }
+      header p {
+        font-size:1.5em;
+         max-width:50%;
+    }
+    #advertisement{
+ background-image: url('../img/colors-background-lg.jpg');
+     background-repeat: no-repeat;
+    background-position:center;
+    }
+    #workshops{
+       text-align:left;
+       padding-bottom: 1em;
+    }
+    #workshops h2 {
+    font-weight:100;
+    font-size:2.5em;
+}
+i{
+    float: right !important;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+}
+footer{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: thick  #583820;
+    border-top-style:solid;
+    border-top-width: 3px;
+
+}
+footer p {
+    font-size:12px;
+}
+i{
+    color:royalblue;
+    size:2em;
+}
+.pencilType{
+    padding:1em 1em;
+    position:right;
+    margin: 1em 1em;
+    
+}
+
+
+.hover:hover{
+    font-size:150%;
+}
+
+.padTop{
+    padding-top:1em;
+    margin-top:1em;
+}
+.padBottom{
+    padding-bottom:1em;
+    margin-bottom:1em;
+}
+.padSide{
+    padding-left:1em;
+    margin-left:1em;
+     padding-right:1em;
+    margin-right:1em;
+}
+.pencilImg{
+    max-width:100%;
+}
+.smallPencil{   
+    width:200px;
+    height:150px;
+}
+.max-widthSmall{
+    max-width:450px;
+}
+.width50{
+    width:50%;
+}
+.width10{
+    width:10%;
+}
+.width22{
+    width:22%;
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "traditional",
+    "name": "Traditional #2",
+    "tagline": "The iconic pencil, great for tests.",
+    "description": "This traditional pencil has been used and loved by milllions. Our #2 pencil has the texture you expect, with a fully functional and eminently chewable eraser. Rest assured that it will work with all standardized test (correct answers not guaranteed).",
+    "image": "img/pencils/no2.jpg",
+    "price": 13
+  },
+  {
+    "id": "mechanical",
+    "name": "Mechanical",
+    "tagline": "When your writing needs to go hi-tech.",
+    "description": "Scientists have produced a novel breakthrough: the cybernetic pencil. This device includes removable, refillable graphite, a customizable tip, and a button you can click. This is the pencil of the future. Waterproof. An experimental technology that can be yours today!",
+    "image": "img/pencils/jumbo.jpg",
+    "price": 29.95
+  },
+  {
+    "id": "hard-light",
+    "name": "Hard & Light",
+    "tagline": "A hard tip for the highest level of control.",
+    "description": "The extra-strength, certified grade 9H lead in this pencil allows for an unbelievably fine tip that responds to your every move. And with our patented ultra-grippable wooden base, you can be sure that marks will only go where you tell them to.",
+    "image": "img/pencils/light.jpg",
+    "price": 22
+  },
+  {
+    "id": "soft-dark",
+    "name": "Soft & Dark",
+    "tagline": "A buttery pencil with a hint of oak and a smooth finish.",
+    "description": "This pencil was specially designed for those looking to practice their handwriting. The lead is incredibly soft and smooth, making it feel almost like a brush. Produces bold lines that will make the world say 'wow!' The pencil for when you really need to make a mark.",
+    "image": "img/pencils/dark.jpg",
+    "price": 21.5
+  },
+  {
+    "id": "triangular",
+    "name": "Triangular",
+    "tagline": "The pencil you love, in a new shape that has staying power.",
+    "description": "No more searching for your lost pencil! Developed and produced in-house, this pencil's unique shape means that it will never roll away when put down. The thicker, angled core also makes it excellent for shading work. Good things come in threes (sides)!",
+    "image": "img/pencils/triangle.jpg",
+    "price": 16.6
+  },
+  {
+    "id": "jumbo",
+    "name": "The Jumbo",
+    "tagline": "A pencil for little hands with big ideas.",
+    "description": "The biggest pencil around! Our jumbo pencil is a whopping 5 times the thickness of a regular pencil. Perfect for younger writers still developing their grip, or for when you need to write A LOT.",
+    "image": "img/pencils/jumbo.jpg",
+    "price": 19
+  },
+  {
+    "id": "blackwing",
+    "name": "Blackwing",
+    "tagline": "The legendary pencil used by the stars.",
+    "description": "While the Blackwing brand was temporarily discontinued, it's back now and with a vengence! Used by legendary artists, the Blackwing pencil offers the highest-quality graphite and a replaceable eraser, all in an iconic package. Own the luxury pencil that 'Hollywood is Obsessed With' (http://www.hollywoodreporter.com/news/blackwing-602-why-is-hollywood-600265) ",
+    "image": "img/pencils/blackwing.jpg",
+    "price": 25.95
+  },
+  {
+    "id": "bulk-order",
+    "name": "Pencils in Bulk",
+    "tagline": "A dozen boxes of whatever we have lying around.",
+    "description": "You want pencils? We got pencils! Fat pencils; skinny pencils; pencils that write on rocks. We'll dig around in our storeroom and send you send you boxes of the stuff. Use what you like, trade what you don't.",
+    "image": "img/pencils/bulk.jpg",
+    "price": 120
+  }
+]
