@@ -1,0 +1,46 @@
+
+<main role="main" class="main-content container" aria-live="polite">
+    <span class="padTop">
+<button class="padTop btn btn-warning"><a class="padTop" ui-sref="orders.pencils" href="#/orders">Go Back</a></button>
+</span>
+
+<section role="region">
+    <tr ng-controller="DetailCtrl">
+        <div class="container col-xs-12 col-sm-12 col-m-4 col-lg-4">
+            <h1>{{pencil.name}} <small> &nbsp;  {{pencil.price | currency : $ : 2}}</small><br></h1>
+            <p><small>{{pencil.tagline}}<p>
+            <form name="orderForm">
+
+                <label for="colors">Colors </label><br>
+                <select name="colors" ng-model="colors.selectedItem">
+      <option value="black">Black</option>
+      <option value="red">Red</option>
+	<option value="green">Green</option>
+	<option value="blue">Blue</option>
+	  <option value="purple">Purple</option>
+    </select><br>
+
+                <label for="quantity">Quantity</label><input type="number" id="numbers" name="quantity" ng-model="quantity" class="form-control" placeholder="0" value="0" min="0" step="1" required>
+                <p><button id="submit" class="btn btn-default padTop" ng-click="savePencil()" onClick="this.disabled = true;" ng-disabled="colors.selectedItem === null || quantity===0">
+ Add to Cart
+</button></p>
+            </form>
+
+        </div>
+        </section>
+    
+        <section class="container padTop">
+
+        <div class="col-xs-12 col-sm-12 col-m-4 col-lg-4 container max-widthSmall">
+            <img ng-src="{{pencil.image}}" class="pencilImg" />
+        </div>
+        <div>
+            <div class="col-xs-12 col-sm-12 col-m-6 col-lg-6 container padTop" class="pencilType">
+                <p>{{pencil.description}}</p>
+            </div>
+
+        </div>
+    </tr>
+    </section>
+
+</main>
