@@ -26,7 +26,7 @@ nav li a:hover{
     color:white;
 }
 header{
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/quad.jpg');
     background: -moz-linear-gradient(to right, white, rgba(0,0,0,0));
     background-repeat: no-repeat;
     background-position:center;
@@ -72,7 +72,7 @@ header, footer{
 }
 
 #advertisement{
-    background-img:url('..img/suz.jpg');
+    background-image: url('..img/quad.jpg');
     background-repeat: no-repeat;
     background-position:center;
 }
@@ -108,7 +108,7 @@ header, footer{
 }
 @media screen and (min-width:768px){
     header{
-        background-image: url('../img/header.jpg');
+        background-image: url('..img/quad.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background:-moz-linear-gradient(to right, white, rgba(0,0,0,0));  
@@ -118,9 +118,9 @@ header, footer{
          max-width:50%;
     }
     #advertisement{
-        background-image: url('../img/suz.jpg');
-            background-repeat: no-repeat;
-    background-position:center;
+        background-image: url('../img/quad.jpg');
+        background-repeat: no-repeat;
+        background-position:center;
     }
     #workshops h2 {
     font-weight:100;
@@ -137,7 +137,7 @@ i{
 }
 @media screen and (min-width:992px){
     header{
-        background-image: url('../img/header.jpg');
+        background-image: url('..img/quad.jpg');
         background-repeat: no-repeat;
         background-position:center ;
         background:-moz-linear-gradient(to right, white, rgba(0,0,0,0));
@@ -147,7 +147,7 @@ i{
          max-width:50%;
     }
     #advertisement{
- background-image: url('../img/suz.jpg');
+    background-image: url('..img/quad.jpg');
      background-repeat: no-repeat;
     background-position:center;
     }
@@ -166,7 +166,7 @@ i{
 }
 @media screen and (min-width:1200px){
     header{
-        background-image: url('../img/header.jpg');
+       background-image: url('..img/quad.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background: -moz-linear-gradient(to right, white, rgba(0,0,0,0));
@@ -176,7 +176,7 @@ i{
          max-width:50%;
     }
     #advertisement{
- background-image: url('../img/suz.jpg');
+    background-image: url('../img/quad.jpg');
      background-repeat: no-repeat;
     background-position:center;
     }
