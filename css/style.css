@@ -21,9 +21,12 @@ nav svg {
 nav li a {
     color:white;
 }
-
+nav li a:hover{
+    font-size:120%;
+    color:white;
+}
 header{
-    background-image: url('../img/cherry.jpg');
+    background-image: url('../img/pencil-header-xs.jpg');
     background: -moz-linear-gradient(to right, white, rgba(0,0,0,0));
     background-repeat: no-repeat;
     background-position:center;
@@ -69,7 +72,7 @@ header, footer{
 }
 
 #advertisement{
-    background-image: url('..img/dubs.jpg');
+    background-img:url('..img/colors-background-sm.jpg');
     background-repeat: no-repeat;
     background-position:center;
 }
@@ -105,7 +108,7 @@ header, footer{
 }
 @media screen and (min-width:768px){
     header{
-        background-image: url('..img/cherry.jpg');
+        background-image: url('../img/pencil-header-sm.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background:-moz-linear-gradient(to right, white, rgba(0,0,0,0));  
@@ -115,9 +118,9 @@ header, footer{
          max-width:50%;
     }
     #advertisement{
-        background-image: url('../img/dubs.jpg');
-        background-repeat: no-repeat;
-        background-position:center;
+        background-image: url('../img/colors-background-sm.jpg');
+            background-repeat: no-repeat;
+    background-position:center;
     }
     #workshops h2 {
     font-weight:100;
@@ -134,7 +137,7 @@ i{
 }
 @media screen and (min-width:992px){
     header{
-        background-image: url('..img/dubs.jpg');
+        background-image: url('../img/pencil-header-md.jpg');
         background-repeat: no-repeat;
         background-position:center ;
         background:-moz-linear-gradient(to right, white, rgba(0,0,0,0));
@@ -144,7 +147,7 @@ i{
          max-width:50%;
     }
     #advertisement{
-    background-image: url('..img/dubs.jpg');
+ background-image: url('../img/colors-background-md.jpg');
      background-repeat: no-repeat;
     background-position:center;
     }
@@ -163,7 +166,7 @@ i{
 }
 @media screen and (min-width:1200px){
     header{
-       background-image: url('..img/dubs.jpg');
+        background-image: url('../img/pencil-header-lg.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background: -moz-linear-gradient(to right, white, rgba(0,0,0,0));
@@ -173,7 +176,7 @@ i{
          max-width:50%;
     }
     #advertisement{
-    background-image: url('../img/dubs.jpg');
+ background-image: url('../img/colors-background-lg.jpg');
      background-repeat: no-repeat;
     background-position:center;
     }
@@ -206,44 +209,7 @@ i{
     color:royalblue;
     size:2em;
 }
-.pencilType{
-    padding:1em 1em;
-    position:right;
-    margin: 1em 1em;
-    
-}
-
-
-.padTop{
-    padding-top:1em;
-    margin-top:1em;
-}
-.padBottom{
-    padding-bottom:1em;
-    margin-bottom:1em;
-}
-.padSide{
-    padding-left:1em;
-    margin-left:1em;
-     padding-right:1em;
-    margin-right:1em;
-}
-.pencilImg{
-    max-width:100%;
-}
-.smallPencil{   
-    width:200px;
-    height:200px;
-}
-.max-widthSmall{
-    max-width:450px;
-}
-.width50{
-    width:50%;
-}
-.width10{
-    width:10%;
-}
-.width22{
-    width:22%;
+.smallPencil{
+  height:200px;
+   width:200px;
 }
