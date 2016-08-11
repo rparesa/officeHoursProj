@@ -66,11 +66,11 @@ myApp.controller('DetailsCtrl', ['$scope', '$stateParams', '$filter', '$http', '
         $scope.colors = {
             selectedItem: null,
             choices: [
-				{name: "Black",value: "black" }, 
-				{name: "Red",value: "red"}, 
-				{name: "Green",value: "green"}, 
-				{name: "Blue",value: "blue"}, 
-				{name: "Purple",value: "purple"}, ]
+				{name: "SUM 16",value: "sum16" }, 
+				{name: "AUT 16",value: "aut16"}, 
+				{name: "WIN 16",value: "win16"}, 
+				{name: "SPR 17",value: "spr17"}, 
+				{name: "SUM 16",value: "sum16"}, ]
         }
    
         //used to add pencils to the cart 

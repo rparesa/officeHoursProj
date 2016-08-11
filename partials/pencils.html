@@ -4,15 +4,15 @@
 
 <section role="region">
 			<div class="input-group custom-search container padTop">
-				<input type="text" id="searchTerm" ng-model="searchTerm" class="form-control" placeholder="Search pencils...">
+				<input type="text" id="searchTerm" ng-model="searchTerm" class="form-control" placeholder="Search...">
 				<span class="input-group-addon"><i class="glyphicon glyphicon-search" aria-hidden></i></span>
 			</div>
 		</section>
 
-    <div ng-repeat="pencil in pencils | filter: searchTerm"" class=" col-lg-6 col-md-6 col-s-12 col-xs-12">
+    <div ng-repeat="pencil in pencils | filter: searchTerm" class=" col-lg-6 col-md-6 col-s-12 col-xs-12">
 	            	 <span class="hover container boxy" ui-sref="orders.id({id:'{{pencil.id}}'})">
                         <a ui-sref="orders.id({id:'{{pencil.id}}'})">{{pencil.name}}</a>
-                        <small> &nbsp;  {{pencil.price | currency : $ : 2}}</small>
+                        <small> &nbsp;  {{pencil.price}}</small>
                         <h4 class="text">{{pencil.tagline}}</h4>
 						 <img ng-src="{{pencil.image}}" class="pencilImg smallPencil" />
                     

@@ -3,9 +3,9 @@
          	<table id="cart" class="table col-xs-10 col-s-10 col-m-10 col-lg-10 padSide">
     				<thead>
 						<tr>
-							<th class="width50">Product</th>
-							<th class="width10">Color</th>
-							<th class="width10">Price</th>
+							<th class="width50">Teacher</th>
+							<th class="width10">Term</th>
+							<th class="width10">Class</th>
 							<th class="width10">Quantity</th>
 							<th class=" width22 text-center">Subtotal</th>
 							<th sclass="width10"></th>
@@ -17,7 +17,7 @@
 						<tr ng-repeat="pencil in cart track by $index">
 							<td>{{pencil.name}}</td>
 							<td>{{pencil.color}}</td>
-							<td> &nbsp;  {{pencil.price | currency : $ : 2}}</td>
+							<td> &nbsp;  {{pencil.price}}</td>
 				<td class="padSide"><button ng-click="subOne(pencil)">-</button>{{pencil.quantity}}<button ng-click="addOne(pencil)">+</button></td>
 							<td>&nbsp;&nbsp;&nbsp;{{pencil.quantity * pencil.price | currency : $ : 2 }}</td>
 						</tr>

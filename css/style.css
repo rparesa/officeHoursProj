@@ -21,12 +21,9 @@ nav svg {
 nav li a {
     color:white;
 }
-nav li a:hover{
-    font-size:120%;
-    color:white;
-}
+
 header{
-    background-image: url('../img/quad.jpg');
+    background-image: url('../img/cherry.jpg');
     background: -moz-linear-gradient(to right, white, rgba(0,0,0,0));
     background-repeat: no-repeat;
     background-position:center;
@@ -72,7 +69,7 @@ header, footer{
 }
 
 #advertisement{
-    background-image: url('..img/quad.jpg');
+    background-image: url('..img/dubs.jpg');
     background-repeat: no-repeat;
     background-position:center;
 }
@@ -108,7 +105,7 @@ header, footer{
 }
 @media screen and (min-width:768px){
     header{
-        background-image: url('..img/quad.jpg');
+        background-image: url('..img/cherry.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background:-moz-linear-gradient(to right, white, rgba(0,0,0,0));  
@@ -118,7 +115,7 @@ header, footer{
          max-width:50%;
     }
     #advertisement{
-        background-image: url('../img/quad.jpg');
+        background-image: url('../img/dubs.jpg');
         background-repeat: no-repeat;
         background-position:center;
     }
@@ -137,7 +134,7 @@ i{
 }
 @media screen and (min-width:992px){
     header{
-        background-image: url('..img/quad.jpg');
+        background-image: url('..img/dubs.jpg');
         background-repeat: no-repeat;
         background-position:center ;
         background:-moz-linear-gradient(to right, white, rgba(0,0,0,0));
@@ -147,7 +144,7 @@ i{
          max-width:50%;
     }
     #advertisement{
-    background-image: url('..img/quad.jpg');
+    background-image: url('..img/dubs.jpg');
      background-repeat: no-repeat;
     background-position:center;
     }
@@ -166,7 +163,7 @@ i{
 }
 @media screen and (min-width:1200px){
     header{
-       background-image: url('..img/quad.jpg');
+       background-image: url('..img/dubs.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background: -moz-linear-gradient(to right, white, rgba(0,0,0,0));
@@ -176,7 +173,7 @@ i{
          max-width:50%;
     }
     #advertisement{
-    background-image: url('../img/quad.jpg');
+    background-image: url('../img/dubs.jpg');
      background-repeat: no-repeat;
     background-position:center;
     }
@@ -217,10 +214,6 @@ i{
 }
 
 
-.hover:hover{
-    font-size:150%;
-}
-
 .padTop{
     padding-top:1em;
     margin-top:1em;
@@ -240,7 +233,7 @@ i{
 }
 .smallPencil{   
     width:200px;
-    height:150px;
+    height:200px;
 }
 .max-widthSmall{
     max-width:450px;
