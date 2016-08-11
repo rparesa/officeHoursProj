@@ -66,11 +66,11 @@ myApp.controller('DetailsCtrl', ['$scope', '$stateParams', '$filter', '$http', '
         $scope.colors = {
             selectedItem: null,
             choices: [
-				{name: "SUM 16",value: "sum16" }, 
-				{name: "AUT 16",value: "aut16"}, 
-				{name: "WIN 16",value: "win16"}, 
-				{name: "SPR 17",value: "spr17"}, 
-				{name: "SUM 16",value: "sum16"}, ]
+				{name: "SUM 16",value: "SUM16" }, 
+				{name: "AUT 16",value: "AUT16"}, 
+				{name: "WIN 16",value: "WIN16"}, 
+				{name: "SPR 17",value: "SPR17"}, 
+				{name: "SUM 17",value: "SUM17"}, ]
         }
    
         //used to add pencils to the cart 
@@ -79,9 +79,16 @@ myApp.controller('DetailsCtrl', ['$scope', '$stateParams', '$filter', '$http', '
             $scope.invalid = false; //changes button to be clickable
             var currentPencil = { //gets users input to save to a pencil
                 name: $scope.pencil.name,
-                quantity: Math.round($scope.quantity),
+                quantity: $scope.quantity,
                 color : $scope.colors.selectedItem,
-                price: $scope.pencil.price
+                price: $scope.pencil.price,
+                m: $scope.pencil.m,
+                tu: $scope.pencil.tu,
+                w: $scope.pencil.w,
+                th:$scope.pencil.th,
+                f: $scope.pencil.f,
+                contact: $scope.pencil.contact,
+                location: $scope.pencil.location,
             }; 
             CartService.addPencil(currentPencil); //adds the pencils to the local storage cart
             $scope.invalid = true;

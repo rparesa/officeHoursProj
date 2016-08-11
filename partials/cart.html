@@ -6,9 +6,15 @@
 							<th class="width50">Teacher</th>
 							<th class="width10">Term</th>
 							<th class="width10">Class</th>
-							<th class="width10">Quantity</th>
-							<th class=" width22 text-center">Subtotal</th>
-							<th sclass="width10"></th>
+							<th class="width10">M</th>
+							<th class="width10">TU</th>
+							<th class="width10">W</th>
+							<th class="width10">TH</th>
+							<th class="width10">F</th>
+							<th class=" width10 text-center">Contact Information</th>
+							<th sclass="width5">Location</th>
+							<th></th>
+							<th></th>
 						</tr>
 						<tr>
 						</tr>
@@ -18,13 +24,17 @@
 							<td>{{pencil.name}}</td>
 							<td>{{pencil.color}}</td>
 							<td> &nbsp;  {{pencil.price}}</td>
-				<td class="padSide"><button ng-click="subOne(pencil)">-</button>{{pencil.quantity}}<button ng-click="addOne(pencil)">+</button></td>
-							<td>&nbsp;&nbsp;&nbsp;{{pencil.quantity * pencil.price | currency : $ : 2 }}</td>
+							<td>{{pencil.m}}</td>
+							<td>{{pencil.tu}}</td>
+							<td>{{pencil.w}}</td>
+							<td>{{pencil.th}}</td>
+							<td>{{pencil.f}}</td>
+							<td>&nbsp;&nbsp;&nbsp;{{pencil.contact}}</td><td>{{pencil.location}}</td><td class="padSide"><button ng-click="removePencils(pencil)"><i class="fa fa-times"></i></button>
 						</tr>
 					</tbody>
-				</table>
-				<td>Total: ${{getTotal()}}</td><br>
+				</table><br>
+				<td>Would you like to empty your list?  </td><br>
 				<button class="btn padTop padBottom padSide" ng-click="modalOpen()">Confirm</button>
-    </div>
+    </div><br>
 </main>
 

@@ -5,12 +5,14 @@
     "tagline": "The iconic pencil, great for tests.",
     "description": "This traditional pencil has been used and loved by milllions. Our #2 pencil has the texture you expect, with a fully functional and eminently chewable eraser. Rest assured that it will work with all standardized test (correct answers not guaranteed).",
     "image": "img/pencils/Beth.jpg",
-    "m": "12",
-    "tu":"12" ,
-    "w": "12",
-    "th": "12",
-    "f": "12",
-    "price": "INFO 200"
+    "m": " ",
+    "tu":"10:00-10:20" ,
+    "w": " ",
+    "th": " ",
+    "f": " ",
+    "price": "INFO 200",
+    "contact": "bethp@uw.edu",
+    "location": "MGH 015"
   },
   {
     "id": "ElizabethChapin",
@@ -18,7 +20,14 @@
     "tagline": "When your writing needs to go hi-tech.",
     "description": "Scientists have produced a novel breakthrough: the cybernetic pencil. This device includes removable, refillable graphite, a customizable tip, and a button you can click. This is the pencil of the future. Waterproof. An experimental technology that can be yours today!",
     "image": "img/pencils/Elizabeth.jpg",
-    "price": "INFO 200"
+    "m": " ",
+    "tu":" " ,
+    "w": "11:15-12:00",
+    "th": " ",
+    "f": " ",
+    "price": "INFO 200",
+    "contact": "echapin@uw.edu",
+    "location": "MGH 015"
   },
   {
     "id": "SamuelWang",
@@ -26,7 +35,14 @@
     "tagline": "A hard tip for the highest level of control.",
     "description": "The extra-strength, certified grade 9H lead in this pencil allows for an unbelievably fine tip that responds to your every move. And with our patented ultra-grippable wooden base, you can be sure that marks will only go where you tell them to.",
     "image": "img/pencils/Sam.jpg",
-    "price": "STAT 311"
+     "m": " ",
+    "tu":" " ,
+    "w": "1:00-3:00",
+    "th": " ",
+    "f": " ",
+    "price": "STAT 311",
+    "contact": "ysamwang@uw.edu",
+    "location": "PLD 228"
   },
   {
     "id": "JoelRoss",
@@ -34,7 +50,14 @@
     "tagline": "A buttery pencil with a hint of oak and a smooth finish.",
     "description": "This pencil was specially designed for those looking to practice their handwriting. The lead is incredibly soft and smooth, making it feel almost like a brush. Produces bold lines that will make the world say 'wow!' The pencil for when you really need to make a mark.",
     "image": "img/pencils/Joel.jpg",
-    "price": "INFO 343"
+    "price": "INFO 343",
+     "m": "2:00-3:00",
+    "tu":"2:00-3:00" ,
+    "w": " ",
+    "th": " ",
+    "f": " ",
+     "contact": "joelross@uw.edu",
+    "location": "MGH 330C"
   },
   {
     "id": "ShawnWalker",
@@ -42,7 +65,14 @@
     "tagline": "The pencil you love, in a new shape that has staying power.",
     "description": "No more searching for your lost pencil! Developed and produced in-house, this pencil's unique shape means that it will never roll away when put down. The thicker, angled core also makes it excellent for shading work. Good things come in threes (sides)!",
     "image": "img/pencils/Shawn.jpg",
-    "price": "INFO 344"
+    "price": "INFO 344",
+      "m": "3:00-4:00",
+    "tu":" " ,
+    "w": "3:00-4:00",
+    "th": " ",
+    "f": " ",
+     "contact": "stw3@uw.edu",
+    "location": "MGH 310"
   },
   {
     "id": "JosephButwin",
@@ -50,7 +80,14 @@
     "tagline": "A pencil for little hands with big ideas.",
     "description": "The biggest pencil around! Our jumbo pencil is a whopping 5 times the thickness of a regular pencil. Perfect for younger writers still developing their grip, or for when you need to write A LOT.",
     "image": "img/pencils/Joseph.jpg",
-    "price": "ENG 225"
+    "price": "ENG 225",
+      "m": " ",
+    "tu":" " ,
+    "w": "11:15-12:00",
+    "th": " ",
+    "f": " ",
+     "contact": "joeyb@uw.edu",
+    "location": "PDL 419"
   },
   {
     "id": "AmyOhta",
@@ -58,6 +95,29 @@
     "tagline": "The legendary pencil used by the stars.",
     "description": "While the Blackwing brand was temporarily discontinued, it's back now and with a vengence! Used by legendary artists, the Blackwing pencil offers the highest-quality graphite and a replaceable eraser, all in an iconic package. Own the luxury pencil that 'Hollywood is Obsessed With' (http://www.hollywoodreporter.com/news/blackwing-602-why-is-hollywood-600265) ",
     "image": "img/pencils/Amy.jpg",
-    "price": "JAPAN 331"
+    "price": "JAPAN 331",
+      "m": " ",
+    "tu":" " ,
+    "w": " ",
+    "th": " ",
+    "f": "1:00-2:00",
+     "contact": "aohta@uw.edu",
+    "location": "GWN 247"
+  },
+    {
+    "id": "IzumiMatsuda",
+    "name": "Izumi Matsuda",
+    "tagline": "The legendary pencil used by the stars.",
+    "description": "While the Blackwing brand was temporarily discontinued, it's back now and with a vengence! Used by legendary artists, the Blackwing pencil offers the highest-quality graphite and a replaceable eraser, all in an iconic package. Own the luxury pencil that 'Hollywood is Obsessed With' (http://www.hollywoodreporter.com/news/blackwing-602-why-is-hollywood-600265) ",
+    "image": "img/pencils/matsuda.jpg",
+    "price": "JAPAN 323",
+      "m": "1:00-2:00",
+    "tu":" " ,
+    "w": " ",
+    "th": " ",
+    "f": " ",
+     "contact": "matsuda@uw.edu",
+    "location": "GWN 214"
   }
+
 ]
