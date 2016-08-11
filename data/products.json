@@ -5,6 +5,11 @@
     "tagline": "The iconic pencil, great for tests.",
     "description": "This traditional pencil has been used and loved by milllions. Our #2 pencil has the texture you expect, with a fully functional and eminently chewable eraser. Rest assured that it will work with all standardized test (correct answers not guaranteed).",
     "image": "img/pencils/Beth.jpg",
+    "m": "12",
+    "tu":"12" ,
+    "w": "12",
+    "th": "12",
+    "f": "12",
     "price": "INFO 200"
   },
   {
