@@ -213,3 +213,7 @@ i{
   height:200px;
    width:200px;
 }
+.padBot{
+    padding-bottom:1em;
+    margin-bottom:1em;
+}

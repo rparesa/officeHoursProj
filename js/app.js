@@ -29,6 +29,11 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $
             templateUrl: 'partials/pencil-id.html',
             controller: 'DetailsCtrl'
         })
+        .state('map', { //orders details page
+            url: '/map',
+            templateUrl: 'partials/map.html',
+            controller: 'MapCtrl'
+        })
 
 		$urlRouterProvider.otherwise('/');
 
@@ -51,6 +56,17 @@ myApp.controller('OrdersCtrl', ['$scope', '$http', 'CartService', function($scop
         $scope.pencils = data;
     });
     $scope.cart = CartService.cart;
+}]);
+
+myApp.controller('MapCtrl', ['$scope', '$http', 'CartService', function($scope, $http, CartService) {
+  $('#demo-1').monthly({
+
+  mode: 'event',
+
+  xmlUrl: 'events.xml'
+
+});
+
 }]);
 
 //Controller for the details of each pencil page
