@@ -217,3 +217,8 @@ i{
     padding-bottom:1em;
     margin-bottom:1em;
 }
+.makeCenter{
+    text-align:center;
+    position:center;
+    
+}
