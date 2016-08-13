@@ -34,6 +34,11 @@ myApp.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $
             templateUrl: 'partials/map.html',
             controller: 'MapCtrl'
         })
+         .state('visualMap', { //orders details page
+            url: '/campusMap',
+            templateUrl: 'partials/campusMap.html',
+            controller: 'campusMapCtrl'
+        })
 
 		$urlRouterProvider.otherwise('/');
 
@@ -59,13 +64,9 @@ myApp.controller('OrdersCtrl', ['$scope', '$http', 'CartService', function($scop
 }]);
 
 myApp.controller('MapCtrl', ['$scope', '$http', 'CartService', function($scope, $http, CartService) {
-  $('#demo-1').monthly({
 
-  mode: 'event',
-
-  xmlUrl: 'events.xml'
-
-});
+}]);
+myApp.controller('campusMapCtrl', ['$scope', '$http', 'CartService', function($scope, $http, CartService) {
 
 }]);
 
